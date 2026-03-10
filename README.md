@@ -1,33 +1,44 @@
-AI Face Recognition Attendance System
+# 🎓 AI Face Recognition Attendance System
 
-A real-time attendance system built using Computer Vision and Deep Learning.
-The system detects faces through a webcam, recognizes individuals using FaceNet embeddings via DeepFace, and automatically logs attendance in CSV and Excel formats.
+A **real-time attendance system** built using **Computer Vision and Deep Learning**.
+The system detects faces through a webcam, recognizes individuals using **FaceNet embeddings via DeepFace**, and automatically logs attendance in **CSV and Excel formats**.
 
-Features
+---
 
-Real-time face detection using webcam
+## 🚀 Features
 
-Deep learning face recognition (FaceNet / DeepFace)
+* 🎥 Real-time face detection using webcam
+* 🧠 Deep learning face recognition (FaceNet / DeepFace)
+* 📝 Automatic attendance logging
+* 📊 Excel attendance export
+* 📋 Live attendance dashboard showing present students
+* 🔁 Duplicate attendance prevention
+* 🔒 Privacy-safe repository (face images excluded)
 
-Automatic attendance logging
+---
 
-Excel attendance export
-
-Live attendance dashboard showing present students
-
-Duplicate attendance prevention
-
-Privacy-safe repository (face images excluded)
-
-Demo
+## 📷 Demo
 
 Example system output:
 
+```
 Students Present: 2
 
 ✔ Sneha
 ✔ Alex
-Project Structure
+```
+
+*(Add a screenshot here once available)*
+
+```
+![System Demo](screenshots/demo.png)
+```
+
+---
+
+## 📂 Project Structure
+
+```
 face-recognition-attendance
 │
 ├── src
@@ -48,80 +59,110 @@ face-recognition-attendance
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-Face images are not included for privacy reasons.
+⚠️ Face images are **not included** in the repository for privacy reasons.
 
-Installation
+---
+
+## ⚙️ Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/YOUR_USERNAME/face-recognition-attendance.git
 cd face-recognition-attendance
+```
 
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
-Usage
-1. Capture Face Dataset
+```
+
+---
+
+## ▶️ Usage
+
+### 1️⃣ Capture Face Dataset
+
+```bash
 python src/capture_faces_mediapipe.py
+```
 
-This will capture face images using the webcam.
+This captures face images using your webcam.
 
-2. Train the Recognition Model
+---
+
+### 2️⃣ Train the Recognition Model
+
+```bash
 python src/train_model.py
-3. Run the Attendance System
+```
+
+---
+
+### 3️⃣ Run the Attendance System
+
+```bash
 python src/recognize_deepface.py
+```
 
 The system will:
 
-detect faces in real time
+* Detect faces in real time
+* Recognize known individuals
+* Log attendance automatically
 
-recognize known individuals
+---
 
-log attendance automatically
+## 📊 Attendance Output
 
-Attendance Output
+Attendance logs are generated in:
 
-Attendance logs are saved as:
-
+```
 attendance/attendance.csv
 attendance/attendance.xlsx
+```
 
 Example:
 
-Name	Date	Time
-Sneha	2026-03-10	18:41
-Alex	2026-03-10	18:43
-Tech Stack
+| Name  | Date       | Time  |
+| ----- | ---------- | ----- |
+| Sneha | 2026-03-10 | 18:41 |
+| Alex  | 2026-03-10 | 18:43 |
 
-Python
+---
 
-OpenCV
+## 🧰 Tech Stack
 
-MediaPipe
+* Python
+* OpenCV
+* MediaPipe
+* DeepFace (FaceNet)
+* TensorFlow
+* Pandas
 
-DeepFace (FaceNet)
+---
 
-TensorFlow
+## 🔒 Privacy
 
-Pandas
+This repository **does not include face images**.
 
-Privacy
-
-This repository does not include face images.
 Users must capture their own dataset locally before running the system.
 
-Future Improvements
+---
 
-Web dashboard for attendance monitoring
+## 🔮 Future Improvements
 
-Multi-camera support
+* 🌐 Web dashboard for attendance monitoring
+* 🎥 Multi-camera support
+* ☁️ Cloud database integration
+* 📱 Mobile camera support
 
-Cloud database integration
+---
 
-Mobile camera support
+## 👩‍💻 Author
 
-Author
-
-Sneha Bhawar
+**Sneha Bhawar**
 Computer Science Student
