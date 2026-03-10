@@ -1,0 +1,21 @@
+# Ignore face images
+dataset/known_faces/
+
+# Ignore trained models
+dataset/face_model.yml
+dataset/labels.npy
+
+# Ignore attendance logs
+attendance/attendance.csv
+attendance/attendance.xlsx
+
+# Ignore deepface weights
+.deepface/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+Thumbs.db
+.DS_Store
