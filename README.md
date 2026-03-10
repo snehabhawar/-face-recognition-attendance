@@ -5,6 +5,12 @@ The system detects faces through a webcam, recognizes individuals using FaceNet 
 
 ---
 
+## Architecture
+
+Webcam → Face Detection → Face Embedding (FaceNet) → Identity Matching → Attendance Logging
+
+---
+
 ## Features
 
 * Real-time face detection using a webcam
