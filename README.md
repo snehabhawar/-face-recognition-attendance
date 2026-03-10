@@ -1,11 +1,11 @@
-# 🎓 AI Face Recognition Attendance System
+#  AI Face Recognition Attendance System
 
 A **real-time attendance system** built using **Computer Vision and Deep Learning**.
 The system detects faces through a webcam, recognizes individuals using **FaceNet embeddings via DeepFace**, and automatically logs attendance in **CSV and Excel formats**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * 🎥 Real-time face detection using webcam
 * 🧠 Deep learning face recognition (FaceNet / DeepFace)
@@ -17,26 +17,20 @@ The system detects faces through a webcam, recognizes individuals using **FaceNe
 
 ---
 
-## 📷 Demo
+##  Demo
 
 Example system output:
+<img width="481" height="383" alt="image" src="https://github.com/user-attachments/assets/385de558-3565-41b9-a853-1d0315fa1ae5" />
+
 
 ```
-Students Present: 2
+Students Present: 1
 
 ✔ Sneha
 ✔ Alex
-```
-
-*(Add a screenshot here once available)*
-
-```
-![System Demo](screenshots/demo.png)
-```
-
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 face-recognition-attendance
@@ -61,11 +55,11 @@ face-recognition-attendance
 └── .gitignore
 ```
 
-⚠️ Face images are **not included** in the repository for privacy reasons.
+ Face images are **not included** in the repository for privacy reasons.
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -82,9 +76,9 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 
-### 1️⃣ Capture Face Dataset
+###  Capture Face Dataset
 
 ```bash
 python src/capture_faces_mediapipe.py
@@ -94,7 +88,7 @@ This captures face images using your webcam.
 
 ---
 
-### 2️⃣ Train the Recognition Model
+###  Train the Recognition Model
 
 ```bash
 python src/train_model.py
@@ -102,7 +96,7 @@ python src/train_model.py
 
 ---
 
-### 3️⃣ Run the Attendance System
+###  Run the Attendance System
 
 ```bash
 python src/recognize_deepface.py
@@ -116,7 +110,7 @@ The system will:
 
 ---
 
-## 📊 Attendance Output
+##  Attendance Output
 
 Attendance logs are generated in:
 
@@ -134,7 +128,7 @@ Example:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 * Python
 * OpenCV
@@ -145,7 +139,7 @@ Example:
 
 ---
 
-## 🔒 Privacy
+##  Privacy
 
 This repository **does not include face images**.
 
@@ -153,16 +147,16 @@ Users must capture their own dataset locally before running the system.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
-* 🌐 Web dashboard for attendance monitoring
-* 🎥 Multi-camera support
-* ☁️ Cloud database integration
-* 📱 Mobile camera support
+*  Web dashboard for attendance monitoring
+*  Multi-camera support
+*  Cloud database integration
+*  Mobile camera support
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Sneha Bhawar**
-Computer Science Student
+
